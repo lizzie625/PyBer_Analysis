@@ -11,8 +11,7 @@ We used the groupby() function to get the total number of rides, total number of
 We then calculated the average fare per ride and per driver for each city type. Finally, we created a summary DataFrame using all the data collected thus far and formatted it to our liking.  
 ![summary_dataframe](https://user-images.githubusercontent.com/96501958/152715317-fca9e3a0-a8be-423e-9cbb-b48de3f36c71.png)  
 ### Deliverable 2  
+We created a multiple-line graph using pivot() and resample() to show the total fare for each week by city type. We created a new DataFrame, reset the index,and converted the new DataFrame so that the index is the "date," each column is a city "type," and the values are the "fare." We did this using the pivot() function; the output will show the total fare for each date and time.  
+WE then used the loc() method to create a new DataFrame with a date range from January 1, 2019 to April 28, 2019. The resampled DataFrame is pictured below.  
+![recreated](https://user-images.githubusercontent.com/96501958/152718334-23b798d9-f3fb-4e57-86d6-8c564a554aa3.png)  
 
-
-
-
-## Summary
