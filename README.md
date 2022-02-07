@@ -15,3 +15,5 @@ We created a multiple-line graph using pivot() and resample() to show the total 
 WE then used the loc() method to create a new DataFrame with a date range from January 1, 2019 to April 28, 2019. The resampled DataFrame is pictured below.  
 ![recreated](https://user-images.githubusercontent.com/96501958/152718334-23b798d9-f3fb-4e57-86d6-8c564a554aa3.png)  
 
+## Summary  
+We created a multiple-line chart displaying the total fares by city type. WE annotated the chart using a legend, chart title, and axis titles. We saved this to a .png file which can be found in our "analysis" folder. 
